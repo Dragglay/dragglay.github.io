@@ -6,3 +6,7 @@ body{
  font-family: 'Playfair Display', serif;
  font-size: xx-large;
 }
+img{
+    height: 20%;
+    width: 20%;
+}
