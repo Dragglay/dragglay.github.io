@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Unlimited Void – Analiza symboliki Gojo</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+    :root{
+        --glow:#7aa2ff;
+    }
+
+    body{
+        margin:0;
+        padding:60px 20px;
+        background:#070910;
+        color:#e6ecff;
+        font-family:'Inter',sans-serif;
+        line-height:1.8;
+        overflow-x:hidden;
+    }
+
+    /* Puls tła */
+    body::before{
+        content:"";
+        position:fixed;
+        inset:0;
+        background:radial-gradient(circle at center, rgba(122,162,255,0.12), transparent 60%);
+        animation:pulseBg 6s ease-in-out infinite;
+        pointer-events:none;
+    }
+
+    @keyframes pulseBg{
+        0%,100%{opacity:0.4;}
+        50%{opacity:0.8;}
+    }
+
+    .container{
+        max-width:900px;
+        margin:auto;
+        position:relative;
+        z-index:1;
+    }
+
+    h2{
+        font-family:'Cinzel',serif;
+        letter-spacing:3px;
+        text-transform:uppercase;
+        color:#cfe1ff;
+        text-shadow:0 0 18px var(--glow);
+        margin-top:90px;
+    }
+
+    p{
+        margin:18px 0;
+        color:#dfe6ff;
+    }
+
+    .image-block{
+        margin:70px 0 15px;
+        text-align:center;
+    }
+
+    .image-block img{
+        max-width:100%;
+        border-radius:8px;
+        box-shadow:0 0 35px rgba(122,162,255,0.35);
+        transition:0.4s ease;
+    }
+
+    .image-block img:hover{
+        transform:scale(1.015);
+        box-shadow:0 0 70px rgba(122,162,255,0.7);
+    }
+
+    .caption{
+        margin-top:12px;
+        font-size:0.85em;
+        font-style:italic;
+        color:#9fb6ff;
+        letter-spacing:1px;
+        opacity:0.9;
+    }
+
+    .divider{
+        height:1px;
+        margin:100px 0;
+        background:linear-gradient(to right, transparent, var(--glow), transparent);
+        animation:pulseLine 4s ease-in-out infinite;
+    }
+
+    @keyframes pulseLine{
+        0%,100%{opacity:0.3;}
+        50%{opacity:1;}
+    }
+
+    ul{
+        margin-top:25px;
+    }
+
+    li{
+        margin:10px 0;
+    }
+    .tech {
+    font-family: "Cinzel", serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+/* BLUE */
+    .tech.blue {
+        color: #4CC9F0;
+        text-shadow: 0 0 12px rgba(76, 201, 240, 0.6);
+    }
+
+/* RED */
+    .tech.red {
+        color: #FF4D6D;
+        text-shadow: 0 0 12px rgba(255, 77, 109, 0.6);
+    }
+
+/* PURPLE */
+    .tech.purple {
+        color: #9B5DE5;
+        text-shadow: 0 0 12px rgba(155, 93, 229, 0.6);
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h2>Przedmowa</h2>
+<p>Jakiś czas temu natknałem się w internecie na film pt. "Dissecting Ryomen Sukuna" który to przedstawiał Sukune pod względem mitologii i powiązań z religią Buddyjską. Natchnięty duchem inspiracji, postarałem się zrobić coś podobnego ale dla <b>najsilniejszego</b> czarownika jakim jest Satoru Gojo. </p><br>
+<h2>Satoru Gojo - Człowiek oświecony</h2>
+<p>Gojo jest często kojarzony z Taishakuten/Indrą ze względu na swój znak dłoni. Jednak mudra przypisana Taishakuten różni się nieznacznie od znaku dłoni Gojo, co może być powodem, dla którego wiele osób to przeoczyło.</p>
+<p>- Ta mudra używa lewej ręki, podczas gdy Gojo używa prawej.</p>
+<p>- Palec wskazujący zahacza o palec środkowy — u Gojo pozycja tych palców jest zamieniona.</p>
+
+<div class="image-block">
+    <img src="gojo_zdjecia/image1.jpg" alt="">
+    <div class="caption">Błąd wynika z tego, że niektórzy nie radzą sobie ze zmianą perspektywy</div>
+</div>
+
+<p>Fakt, że drobna zmiana ułożenia palców całkowicie zmienia mudrę i powiązaną z nią istotę (jak u Megumiego), sprawił, że zacząłem przyglądać się temu głębiej. Zwłaszcza że istnieje sporo dezinformacji na temat rzekomej walki Indry z Yamą — która w rzeczywistości nigdy nie miała miejsca.</p>
+<p>Znak dłoni przy Domain Expansion Gojo to w rzeczywistości mudra Marici. A dokładniej — dotychczas była to niekompletna pieczęć.</p>
+
+<div class="image-block">
+    <img src="gojo_zdjecia/image2.jpg" alt="">
+    <div class="caption">Dokładnie tak to wygląda.</div>
+</div>
+
+<div class="image-block">
+    <img src="gojo_zdjecia/image3.jpg" alt="">
+    <div class="caption">Więcej zdjęć Gojo i jego Mudry</div>
+</div>
+
+<p>Marici (摩利支天: Marishiten) to buddyjska bogini będąca personifikacją światła(nie zgadniesz na czym opiera się technika Bezkresu jaką operuje Gojo), symbolizująca oślepiające promienie światła poprzedzające wschód słońca (a w niektórych tekstach także księżyca). Nazywana jest boginią Świtu. Świt i światło z nią związane symbolizują blask duchowego oświecenia i przebudzenia.</p>
+<p>Marici, utożsamiana z Doumu, bywa określana jako królowa Niebios (天后), co stanowi ciekawy kontrast wobec Enmaten, który czczony jest jako król Piekieł. - jedna z osób na której jest wzorowany Sukuna.</p>
+<p>Nazywana jest również bodhisattwą, który ślubował doprowadzić wszystkie czujące istoty do przebudzenia. Reprezentuje przebudzenie, triumf nad złem i zwycięstwo w obliczu ekstremalnych trudności.</p>
+<p>Marici (dosł. „miraż”) posiada również moc iluzji. Co ciekawe, jedną z jej największych nadprzyrodzonych zdolności jest niewidzialność. W dawnych czasach wojownicy czcili Marici (szczególnie w japońskim buddyzmie jako boginię wojny) o świcie, by przywołać jej odwagę i moce niewidzialności. Mówi się, że chroni przed furią wojny, co często prowadzi do jej skojarzeń z Durgą — wojowniczą inkarnacją Parwati z mitologii hinduskiej. Według Marici Sutra, Marici zawsze pędzi przed słońcem z ogromną prędkością, pozostając niewykrywalną i niemożliwą do pochwycenia czy związania.</p>
+<p>Co ważne, Mudry nie odpowiadają bezpośrednio mocom czarowników/klątw, lecz stanowią symbolikę. Inkantacje Gojo, motyw oświecenia wokół jego imienia, jego Six Eyes — wszystko to może nawiązywać do jego powiązania z Marici — a w szerszym ujęciu z Buddą.</p>
+
+<h2>Motyw światła w inkantacjach Gojo</h2>
+<p>Inkantacje w <i>Jujutsu Kaisen</i> to słowa lub frazy wypowiadane przez czarowników w celu wzmocnienia techniki.
+        Pełnią funkcję „kotwicy” dla energii klątwy — precyzują jej działanie, zwiększają stabilność lub moc.
+        W wielu przypadkach nie są tylko mechanicznym dodatkiem, ale też nośnikiem symboliki i znaczenia.</p>
+<h4 class="tech blue">BLUE</h3>
+
+<p> - <b>Phase/Fazowość</b> (位相): jedna z najważniejszych właściwości światła</p>
+
+<p> - <b>Twilight/Zmierch</b> (黄昏): miękkie światło na niebie, gdy słońce znajduje się poniżej horyzontu — od świtu do wschodu słońca lub, częściej, od zachodu do zapadnięcia nocy</p>
+
+<p> - <b>Eyes of Wisdom/Oczy Mądrości</b> (智慧の瞳): Prajna, czyli mądrość w buddyzmie — zdolność rozróżniania rzeczy. Istnieje także pojęcie 智慧光 (chiekou), jednego z dwunastu świateł Amitabhy, które niszczy ciemność ignorancji istot żywych</p>
+<p></p>
+
+<h4 class="tech red">Odwrócenie Techniki: Czerwień</h3>
+<p> - <b>Phase/Fazowość </b>(位相): <i>Patrz wyżej</i></p>
+<p> - <b>Haramitsu/Paramita/Oświecenie</b> (波羅蜜): odnosi się do praktyk bodhisattwów prowadzących do oświecenia</p>
+<p> - <b>Pillar of light/Słup Światła</b> (光の柱): prawdopodobnie odniesienie do zjawiska „słupa słonecznego”, powstającego, gdy promienie słońca odbijają się od drobnych kryształków lodu w atmosferze, tworząc pionową kolumnę światła(chociaż to jest lekko naciągane)</p>
+<h3 class="tech purple">Technika Pustki: Fiolet</h3>
+<p> - <b>Nine Ropes/Dziewięć Splotów</b> (九綱): odniesienie do Kyushu zapisywanego po chińsku — regionu, z którego rzekomo wywodzi się japoński buddyzm</p>
+<p> - <b>Polarized light</b> (偏光): kolejna ważna właściwość światła wynikająca z jego natury fazowej. Ma też drugie znaczenie. Kanji <b>Red/Czerwieni</b> (赫) oznacza „rozświetlać; jaśnieć”. Kyushu znane jest z zielonkawo-niebieskich traw, podobnych do kanji Blue (蒼). Można więc wnioskować, że 九綱 + 偏光 to odniesienie do Blue (蒼) i Red (赫) oraz połączenia tych dwóch technik</p>
+<p> - <b>Crows & Shomyou/Kruk i Hymn Buddyjski</b> (烏と声明): Jedyne powiązanie jakie mogłem, na ten moment, wymyśleć to to, że japońskie kruki są najmądrzejsze</p>
+<p> - <b>Gap between within & without/Styk wieszchu i spodu</b> (表裏の間): Tutaj, jedyne na co wpadłem to powiazanie z tego jak działają poprzednie techniki. <span class="tech blue">Błękit</span> jako <b>zbieżnosć</b> oraz <span class="tech red">Czerwień</span> jako <b>rozbieżność</b> po których połączeniu powinno wyjść 0, tworzą jednak coś innego. I to jest właśnie to miejsce(chociaż to również jest naciągane)</p>
+<div class="divider"></div>
+
+
+<h2>Symbolika Gojo jako Buddy</h2>
+<p><b>Satoru</b> (悟) oznacza „zrozumieć / osiągnąć oświecenie”. <b>Gojo</b> (五条) można interpretować na różne sposoby, ponieważ liczba pięć (五) ma w buddyzmie wiele znaczeń.</p>
+<p>Marici jest emanacją Vairocany (大日如来: Dainichi Nyorai) — najwyższego Buddy. Vairocana jest centralnym bóstwem wśród Pięciu Dhyani Buddów (Five Wisdom Buddhas) w buddyzmie ezoterycznym.</p>
+<p>Dainichi (大日) oznacza „Wielkie Słońce”, istotę, której światło oświeca wszystkie byty niczym życiodajne promienie słońca. Nyorai („tak przybyły”) to epitet oświeconych Buddów zajmujących najwyższą pozycję w japońskim panteonie.</p>
+<p><i>W buddyzmie Shingon reprezentowany jest przez sanskrycką literę „A”, symbolizującą życie i śmierć; pojawienie się i powrót.</i></p>
+<p>Teraz, to może zabrzmieć jak coś naciąganego, ale:</p>
+<p> - Elementem przypisanym Vairocanie jest Przestrzeń/<b>Pustka</b>. Technika Gojo — Bezkres — pozwala mu manipulować przestrzenią. Jego Rozszerzenie Domeny nosi nazwę <b>Niezmierzona Pustka</b>.</p>
+<p> - Zmysłem Vairocany jest Wzrok. Szóste Oczy Gojo dają mu nadzmysłową percepcję a także boski poziom kontroli przeklętej energii daleko przewyższający innych czarowników.</p>
+<p>Six Eyes można również powiązać z sześcioma elementami buddyzmu ezoterycznego.</p>
+<p><i>W buddyzmie ezoterycznym pięć elementów (Gogyo 五行) — Ziemia, Woda, Ogień, Powietrze/Wiatr, Przestrzeń/Pustka — łączy się z dodatkowym, szóstym elementem: UMYSŁEM (duchową świadomością/percepcją). Dopiero dodanie szóstego elementu sprawia, że pięć pozostałych staje się „żywe”. Bez tego zwykłe oczy widzą jedynie zróżnicowane formy i pozory.</i></p>
+<p>Vairocana często przedstawiany jest z mudrą symbolizującą jedność pięciu elementów świata z szóstym elementem — duchową świadomością. Mówi się, że posiada sześć elementów.</p>
+<p> - Co istotne, Vairocana uważany jest za sumę wszystkich Dhyani Buddów i łączy w sobie ich cechy. Dlatego przedstawiany jest w czystej bieli — jako że biel jest połączeniem wszystkich kolorów. Gojo również silnie kojarzony jest z bielą — jego włosy, brwi, rzęsy.</p>
+<p>Okładka tomu 4 przedstawia także białą technikę, która nie przypomina żadnej z dotychczas użytych przez Gojo.</p>
+<div class="image-block">
+    <img src="gojo_zdjecia/image4.jpg" alt="">
+    <div class="caption">Czy to jakaś technika której nigdy nie odblokował?</div>
+</div>
+<p>Czy to tylko zbieg okoliczności, czy celowy zabieg?</p>
+<p>Na marginesie — oto kolory przypisane pozostałym Dhyani Buddom:</p>
+<p> - Akshobhya (Ashuku Nyorai) — Niebieski</p>
+<p> - Amitabha (Amida Nyorai) — Czerwony</p>
+<p> - Ratnasambhava (Hōshō Nyorai) — Żółty</p>
+<p> - Amoghasiddhi (Fukūjōju Nyorai) — Zielony (Co ciekawe, w fandomie pojawiło się sporo nieświadomych żartów właśnie z takim kolorem)</p>
+<h2>Zmarnowany potencjał na powrót Gojo</h2>
+<p><i>Jeszcze będzie updatowane</i></p>
+
+</div>
+</body>
+</html>
